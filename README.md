@@ -1,2 +1,2 @@
 # sender3
-A simple HTML site i built that randomly is displayed with black text on white background or vice versa.
+A simple website that randomly is displayed either white on black or vice versa.
