@@ -1,0 +1,36 @@
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <title>Sender3</title>
+  <meta name="description" content="Sender3 Mannheim">
+  <meta name="author" content="Dennis Oswald">
+  <script>
+    function chooseStyle() {
+      var css = new Array('white','black');
+      var i = Math.floor(Math.random()*css.length);
+      var style = "assets/css/main_"+css[i]+".css";
+      return style;
+    }
+    document.write('<link rel="stylesheet" href="'+chooseStyle()+'" type="text/css">');
+  </script>
+</head>
+<body>
+  <div id="logo">
+    <img src="assets/img/s3.png" width="100%" />
+  </div>
+  <div id="social">
+    <a href="http://www.youtube.com/channel/UCeYg_AeuW1y4nfTAqOklC4g"><i class="fa fa-youtube-square fa-xx"></i></a>
+    <a href="http://www.facebook.com/senderdrei"><i class="fa fa-facebook-official fa-xx" ></i></a>
+    <a href="http://www.instagram.com/sender3_official/"><i class="fa fa-instagram fa-xx"></i></a>
+    <a href="http://soundcloud.com/senderdrei"><i class="fa fa-soundcloud fa-xx"></i></a>
+  </div>
+	
+	<div id="album">
+	<a href="http://apple.co/2wv0pQ0" target="_blank"><img src="assets/img/badges/s3-itunes.png" width="150" alt="Download auf iTunes" /></a>
+	<a href="http://bit.ly/2wuN5Lz" target="_blank"><img src="assets/img/badges/s3-googleplay.png" width="150" alt="Download auf Google Play" /></a>
+	<a href="https://www.amazon.de/dp/B0762GDNKC/ref=cm_sw_em_r_mt_dp_cQk3zb5F8H4KB" target="_blank"><img src="assets/img/badges/s3-amazon.png" width="150" alt="Download auf AmazonMP3" /></a><br />
+	<a href="http://spoti.fi/2xVyOLe" target="_blank"><img src="assets/img/badges/s3-spotify.png" width="150" alt="Stream auf Spotify" /></a>
+	<a href="http://apple.co/2wvvYtf" target="_blank"><img src="assets/img/badges/s3-applemusic.png" width="150" alt="Stream auf Apple Music" /></a>
+	</div>
+</body>
+</html>
