@@ -5,12 +5,12 @@
 
 @import "main.css";
 
-body{
+body {
 	background-color: #FFFFFF;
 }
 
 p {
-	color: #000000;
+	color: #ffffff;
 }
 
 a:link {
@@ -33,7 +33,7 @@ a:active {
 	filter: invert(0%);
 }
 	
-#album{
+#content {
 	border-color: black;
 	filter: invert(100%);
 }

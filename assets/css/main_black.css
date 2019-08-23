@@ -33,7 +33,7 @@ a:active {
 	filter: invert(100%);
 }
 
-#album{
+#content {
 	border-color: white;
 	filter: invert(0%);
 }
